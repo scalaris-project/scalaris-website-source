@@ -1,0 +1,73 @@
+# Read about configuration here: https://jekyllrb.com/docs/configuration/options/
+name: 'Scalaris'
+title: 'Scalaris'
+description: 'Scalaris is the one of fastest, secure, reliable, and decentralized exchange (DEX) bassed at blockchain, utilizing cross-chain atomic swaps bassed at the Blocknet Protocol.'
+keywords: 'scalaris dx, decentralized, exchange, dex, atomic swap, trustless, cross-chain, blockchain, scalaris, protocol'
+url: 'https://scalaris.info' # Use for production
+# url: http://staging.blocknet.co.s3-website-us-east-1.amazonaws.com # Use for staging
+# url: 'http://127.0.0.1:4400' # Use for dev
+permalink: 'pretty' # Do not change this, it will break all links
+source: 'source/'
+destination: 'build/'
+data_dir: '_data/'
+timezone: 'America/New_York'
+markdown: 'kramdown'
+livereload: true
+port: 4400
+sass:
+  style: 'compressed'
+# Plugins ignored if building with Github pages
+plugins: 
+- 'jekyll-sitemap'
+- 'jekyll-multiple-languages-plugin'
+- 'liquify'
+
+# Localization settings
+# The first lang is the default/root site
+# languages: ["en","zh","ko","es","ar","ru","it","de"]
+languages: ["en"]
+# exclude_from_localizations: ["assets/"]
+
+# Custom variables, use them within content like this: {{ site.variable_name }}
+# Example: 'Scalaris DX requires Blocknet wallet v{{ site.min_wallet_version }} or greater.'
+
+# Version Updates
+scalaris_version: '1.0.0'
+min_wallet_version: '1.0.0'
+exlink_mac_download: 'https://github.com/scalaris-project/scalaris/releases/download/v1.0.0/scalaris-1.0.0-osx-unsigned.dmg'
+exlink_win_download: 'https://github.com/scalaris-project/scalaris/releases/download/v1.0.0/scalaris-1.0.0-win64-setup-unsigned.exe'
+exlink_linux_download: 'https://github.com/scalaris-project/scalaris/releases/download/v1.0.0/scalaris-1.0.0-x86_64-linux-gnu.tar.gz'
+exlink_all_downloads: 'https://github.com/scalaris-project/scalaris/releases'
+exlink_wallet_download: 'https://github.com/scalaris-project/scalaris/releases/latest'
+
+# !!!Announcement notices are not integrated yet!!!
+# Sticky announcement messages, expiration in epoch time (s)
+# To add more announcements the template needs to be updated
+announcement1: ''
+announcement1_expiration: ''
+announcement2: ''
+announcement2_expiration: ''
+announcement3: ''
+announcement3_expiration: ''
+
+# External Links
+exlink_scalaris: 'https://scalaris.info'
+exlink_api: 'https://api.scalaris.info'
+exlink_api_xbridge: 'https://api.scalaris.info/#xbridge-api'
+exlink_docs: 'https://docs.scalaris.info'
+exlink_docs_blockchain: 'https://docs.scalaris.info/blockchain/introduction'
+exlink_docs_exchanges: 'https://docs.scalaris.info/project/exchanges'
+exlink_docs_fees: 'https://docs.scalaris.info/scalarisdx/fees'
+exlink_docs_snodes: 'https://docs.scalaris.info/service-nodes/introduction'
+exlink_docs_setup: 'https://docs.scalaris.info/scalarisdx/setup/'
+exlink_docs_trading: 'https://docs.scalaris.info/scalarisdx/trading/'
+exlink_docs_listing: 'https://docs.scalaris.info/scalarisdx/listings/'
+exlink_dx_contributor: 'https://github.com/scalaris-project/scalaris-dx'
+exlink_makerbot: 'https://github.com/scalaris-project/dxmakerbot'
+exlink_manifest: 'https://raw.githubusercontent.com/blocknetdx/blockchain-configuration-files/master/manifest-latest.json'
+
+# Social Links
+exlink_github: 'https://github.com/scalaris-project'
+exlink_discord: 'https://discord.gg/HKbdGANbZA'
+exlink_twitter: 'https://twitter.com/scalarisproject'
+exlink_telegram: 'https://t.me/scalaris_project'

@@ -1,0 +1,35 @@
+---
+title: global.meta_title
+description: global.meta_description
+keywords: global.meta_keywords
+layout: default
+namespace: home
+permalink: /
+---
+
+
+{%- assign lang = site.translations[site.lang] -%}
+{%- assign baseurl = site.url | append: lang.global.link_index -%}
+
+<header id="hero">
+  <div class="container">
+    <div class="row justify-content-center pb-5">
+      <div class="text-center align-self-center dx-animate">
+        <h1 class="mb-4">{{ lang.index.header }}</h1>
+        <p class="mb-4">{{ lang.index.subheader }}</p>
+		<img src="assets/img/scalarislogo.png" class="center img" alt="">
+        <div class="mb-5">
+		  <br>
+          <a href="{{ baseurl | append: '#downloads' }}" class="btn btn-primary btn1 px-4 py-2 mt-2 mr-1">{{ lang.index.button1 }}</a>
+          <a href="{{ baseurl | append: '#features' }}" class="btn btn-white btn2 px-4 py-2 mt-2">{{ lang.index.button2 }}</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+{% include sections/features.html %}
+{% include sections/downloads.html %}
+{% include sections/faq.html %}
+<!-- {% include sections/blog1.html %} -->
+

@@ -1,0 +1,81 @@
+{%- assign lang = site.translations[site.lang] -%}
+{%- assign baseurl = site.url | append: lang.global.link_index -%}
+
+<footer id="footer" class="section bg-dark">
+  <div class="container">
+    <div class="row">
+      <div class="col-md">
+        <div class="mb-5">
+          <p><strong><em class="d-block">{{ lang.footer.tagline | liquify }}</em></strong></p>
+          <ul class="social-links list-unstyled float-md-left float-lft mt-2">
+            <li class="dx-animate"><a href="{{ site.exlink_discord }}"><i class="fab fa-discord"></i></a></li>
+            <li class="dx-animate"><a href="{{ site.exlink_twitter }}"><i class="fab fa-twitter"></i></a></li>
+            <li class="dx-animate"><a href="{{ site.exlink_telegram }}"><i class="fab fa-telegram"></i></a></li>
+            <li class="dx-animate"><a href="{{ site.exlink_github }}"><i class="fab fa-github"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md">
+        <div class="mb-4 ml-md-5">
+          <h2>{{ lang.footer.start_header | liquify }}</h2>
+          <ul class="list-unstyled">
+            <li><a href="{{ baseurl | append: '#downloads' }}" class="py-2 d-block">{{ lang.footer.downloads | liquify }}</a></li>
+            <li><a href="{{ site.exlink_docs_setup }}" class="py-2 d-block">{{ lang.footer.setup | liquify }}</a></li>
+            <li><a href="{{ site.exlink_docs_trading }}" class="py-2 d-block">{{ lang.footer.trading | liquify }}</a></li>
+            {%- comment -%}
+            <!-- <li><a href="{{ baseurl | append: lang.global.link_setup }}" class="py-2 d-block">{{ lang.footer.setup | liquify }}</a></li>
+            <li><a href="{{ baseurl | append: lang.global.link_trading }}" class="py-2 d-block">{{ lang.footer.trading | liquify }}</a></li>
+            <li><a href="{{ baseurl | append: lang.global.link_troubleshooting }}" class="py-2 d-block">{{ lang.footer.troubleshooting | liquify }}</a></li> -->
+            {%- endcomment -%}
+          </ul>
+        </div>
+      </div>
+      <div class="col-md">
+        <div class="mb-4 ml-md-5">
+          <h2>{{ lang.footer.learn_header | liquify }}</h2>
+          <ul class="list-unstyled">
+            <li><a href="{{ baseurl | append: '#features' }}" class="py-2 d-block">{{ lang.footer.features | liquify }}</a></li>
+            {%- comment -%}
+            <!-- <li><a href="{{ baseurl | append: lang.global.link_comparisons }}" class="py-2 d-block">{{ lang.footer.comparisons | liquify }}</a></li> -->
+            <!-- <li><a href="{{ baseurl | append: lang.global.link_how }}" class="py-2 d-block">{{ lang.footer.how | liquify }}</a></li> -->
+            {%- endcomment -%}
+            <li><a href="{{ baseurl | append: '#faq' }}" class="py-2 d-block">{{ lang.footer.faq | liquify }}</a></li>
+            <!-- <li><a href="{{ baseurl | append: '#blog' }}" class="py-2 d-block">{{ lang.footer.blog | liquify }}</a></li> -->
+          </ul>
+        </div>
+      </div>
+      <div class="col-md">
+        <div class="mb-4">
+          <h2>{{ lang.footer.trading_header | liquify }}</h2>
+          <ul class="list-unstyled">
+            <li><a href="{{ baseurl | append: lang.global.link_listings }}" class="py-2 d-block">{{ lang.footer.listings | liquify }}</a></li>
+            <li><a href="{{ baseurl | append: lang.global.link_application }}" class="py-2 d-block">{{ lang.footer.application | liquify }}</a></li>
+            <li><a href="{{ baseurl | append: lang.global.link_fees }}" class="py-2 d-block">{{ lang.footer.fees | liquify }}</a></li>
+            {% comment %}
+            <!-- <li><a href="https://twitter.com/dxstats" class="py-2 d-block">{{ lang.footer.stats | liquify }}</a></li> -->
+            {% endcomment %}
+          </ul>
+        </div>
+      </div>
+      {%- comment -%}
+      <!-- <div class="col-md">
+        <div class="mb-4">
+          <h2>{{ lang.footer.developers_header | liquify }}</h2>
+          <ul class="list-unstyled">
+            <li><a href="{{ site.exlink_api }}" class="py-2 d-block">{{ lang.footer.api | liquify }}</a></li>
+            <li><a href="{{ baseurl | append: lang.global.link_market_making }}" class="py-2 d-block">{{ lang.footer.market_making | liquify }}</a></li>
+            <li><a href="{{ baseurl | append: lang.global.link_nodes }}" class="py-2 d-block">{{ lang.footer.nodes | liquify }}</a></li>
+            <li><a href="{{ baseurl | append: lang.global.link_whitelabel }}" class="py-2 d-block">{{ lang.footer.whitelabel | liquify }}</a></li>
+            <li><a href="{{ site.exlink_dx_contributor }}" class="py-2 d-block">{{ lang.footer.contribute | liquify }}</a></li>
+          </ul>
+        </div>
+      </div> -->
+      {%- endcomment -%}
+    </div>
+    <div class="powered-by mt-5 text-center">
+      <a href="{{ site.exlink_scalaris }}">
+        <div>{{ lang.footer.powered_by | liquify }}</div>
+      </a>
+    </div>
+  </div>
+</footer>

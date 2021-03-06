@@ -1,0 +1,82 @@
+{%- assign lang = site.translations[site.lang] -%}
+
+<section id="downloads" class="section bg-light">
+  <div class="container">
+
+    {%-
+      include templates/section-header.html
+      header=lang.downloads.header
+      subheader=lang.downloads.subheader
+      p=''
+    -%}
+
+    <div class="row justify-content-center">
+      <div class="col-10 col-sm-10 col-md-4 mb-4 mb-lg-0 dx-animate">
+        <div class="dx-card shadow-sm h-shadow h-scale">
+          <div class="text-center">
+            <h3 class="heading">{{ lang.downloads.macos | liquify }}</h3>
+            <div class="icon" style="font-size: 128px;">
+            <i class="fab fa-apple" aria-hidden="true"></i>
+            </div>
+            <hr>
+            {%- comment -%}
+            <!-- <a href="{{ site.exlink_mac_setup | liquify }}" class="resource-link d-block">{{ lang.downloads.setup | liquify }}</a>
+            <a href="{{ site.exlink_trading | liquify }}" class="resource-link d-block">{{ lang.downloads.trading | liquify }}</a>
+            <a href="{{ site.exlink_troubleshooting | liquify }}" class="resource-link d-block">{{ lang.downloads.troubleshooting | liquify }}</a> -->
+            {%- endcomment -%}
+            <a href="{{ site.exlink_docs_setup | liquify }}" class="resource-link d-block">{{ lang.downloads.setup | liquify }}</a>
+            <a href="{{ site.exlink_docs_trading | liquify }}" class="resource-link d-block">{{ lang.downloads.trading | liquify }}</a>
+            <hr>
+            <a class="download btn btn-primary d-block px-3 py-3" href="{{ site.exlink_mac_download | liquify }}">{{ lang.downloads.download | liquify }}</a>
+            <a class="all-dwnlds" href="{{ site.exlink_all_downloads | liquify }}">{{ lang.downloads.all_downloads | liquify }}</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-10 col-sm-10 col-md-4 mb-4 mb-lg-0 dx-animate">
+        <div class="dx-card shadow-sm h-shadow h-scale">
+          <div class="text-center">
+            <h3 class="heading">{{ lang.downloads.windows | liquify }}</h3>
+            <div class="icon" style="font-size: 128px;">
+            <i class="fab fa-windows" aria-hidden="true"></i>
+            </div>
+            <hr>
+            {%- comment -%}
+            <!-- <a href="{{ site.exlink_windows_setup | liquify }}" class="resource-link d-block">{{ lang.downloads.setup | liquify }}</a>
+            <a href="{{ site.exlink_trading | liquify }}" class="resource-link d-block">{{ lang.downloads.trading | liquify }}</a>
+            <a href="{{ site.exlink_troubleshooting | liquify }}" class="resource-link d-block">{{ lang.downloads.troubleshooting | liquify }}</a> -->
+            {%- endcomment -%}
+            <a href="{{ site.exlink_docs_setup | liquify }}" class="resource-link d-block">{{ lang.downloads.setup | liquify }}</a>
+            <a href="{{ site.exlink_docs_trading | liquify }}" class="resource-link d-block">{{ lang.downloads.trading | liquify }}</a>
+            <hr style="height: 1px;">
+            <a class="download btn btn-primary d-block px-3 py-3" href="{{ site.exlink_win_download | liquify }}">{{ lang.downloads.download | liquify }}</a>
+            <a class="all-dwnlds" href="{{ site.exlink_all_downloads | liquify }}">{{ lang.downloads.all_downloads | liquify }}</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-10 col-sm-10 col-md-4 mb-4 mb-lg-0 dx-animate">
+        <div class="dx-card shadow-sm h-shadow h-scale">
+          <div class="text-center">
+            <h3 class="heading">{{ lang.downloads.linux | liquify }}</h3>
+            <div class="icon" style="font-size: 128px;">
+            <i class="fab fa-linux" aria-hidden="true"></i>
+            </div>
+            <hr>
+            {%- comment -%}
+            <!-- <a href="{{ site.exlink_linux_setup | liquify }}" class="resource-link d-block">{{ lang.downloads.setup | liquify }}</a>
+            <a href="{{ site.exlink_trading | liquify }}" class="resource-link d-block">{{ lang.downloads.trading | liquify }}</a>
+            <a href="{{ site.exlink_troubleshooting | liquify }}" class="resource-link d-block">{{ lang.downloads.troubleshooting | liquify }}</a> -->
+            {%- endcomment -%}
+            <a href="{{ site.exlink_docs_setup | liquify }}" class="resource-link d-block">{{ lang.downloads.setup | liquify }}</a>
+            <a href="{{ site.exlink_docs_trading | liquify }}" class="resource-link d-block">{{ lang.downloads.trading | liquify }}</a>
+            <hr style="height: 1px;">
+            <a class="download btn btn-primary d-block px-3 py-3" href="{{ site.exlink_linux_download | liquify }}">{{ lang.downloads.download | liquify }}</a>
+            <a class="all-dwnlds" href="{{ site.exlink_all_downloads | liquify }}">{{ lang.downloads.all_downloads | liquify }}</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-center text-secondary mt-3">
+      {{ lang.downloads.version | liquify }}: {{ site.scalaris_version | liquify }}
+    </div>
+  </div>
+</section>
