@@ -4,7 +4,7 @@ This repository contains the source code for Blocknet's [Scalaris website](https
 
 > Powered by [Jekyll](https://github.com/jekyll/jekyll).
 
-[Scalaris Github](https://github.com/scalaris-project/scalaris) | [Join Our Discord](https://discord.gg/HKbdGANbZA)
+[Scalaris Github](https://github.com/scalaris-project/scalaris) | [Join Our Discord](https://discord.gg/ZeUMV2kcaQ)
 -------------|-------------|
 
 
@@ -58,7 +58,7 @@ You can now see the docs at http://localhost:4400. This will reload automaticall
 
 ## Translating
 
-Follow these steps if you'd like to contribute to translating the website to another language. If you are not familiar with how to create a PR, put the translations in a Google Doc and reach out to @hanniabu on [Discord](https://discord.gg/HKbdGANbZA) with the link. Also feel free to reach out for clarifications on these instructions. Collaborations are encouraged to help cross check the translations!
+Follow these steps if you'd like to contribute to translating the website to another language. If you are not familiar with how to create a PR, put the translations in a Google Doc and reach out to @hanniabu on [Discord](https://discord.gg/ZeUMV2kcaQ) with the link. Also feel free to reach out for clarifications on these instructions. Collaborations are encouraged to help cross check the translations!
 
 1. Create a YAML language file in the `source/_i18n/` directory for the language you want to translate the site into. The files should be named after the language abbreviation. For example with French, it would be `source/_i18n/fr.yml`.
 1. Copy the contents of `source/_i18n/en.yml` into this new file and begin translating. For those unfamiliar with YAML, each line starts with a *key*, followed by a colon delimiter, and then the associated text for that key. For example in `lang: English`, *lang* is the key and *English* is the test you'd actually want to translate. For French the translated line would become `lang: Français`. The top level keys (non-indented keys), for example `nav:`, are used for context. So with `nav:`, all the keys/text underneath it (up to the next top level key) is pertaining to the navigation menu.
