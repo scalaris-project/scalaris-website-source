@@ -122,11 +122,28 @@ downloads:
   windows: Windows
   linux: Linux
   setup: Setup Guide
-  trading: Trading Guide
   troubleshooting: Troubleshooting
   download: Download
   all_downloads: View all downloads
   version: Latest version
+  subheader2: Scalaris DX
+  macos2: MacOS
+  windows2: Windows
+  linux2: Linux
+  setup2: Setup Guide
+  trading: Trading Guide
+  troubleshooting2: Troubleshooting
+  download2: Download
+  all_downloads2: View all downloads
+  version2: Latest version
+  subheader3: Electrum Wallets
+  macos3: MacOS
+  windows3: Windows
+  linux3: Linux
+  troubleshooting3: Troubleshooting
+  download3: Download
+  all_downloads3: View all downloads
+  version3: Latest version
 
 stats:
   subheader: Stats

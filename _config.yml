@@ -33,12 +33,22 @@ languages: ["en"]
 
 # Version Updates
 scalaris_version: '1.0.0'
+scalarisdx_version: '1.0.0'
+electrum_version: '4.0.0.0'
 min_wallet_version: '1.0.0'
 exlink_mac_download: 'https://github.com/scalaris-project/scalaris/releases/download/v1.0.0/scalaris-1.0.0-osx-unsigned.dmg'
 exlink_win_download: 'https://github.com/scalaris-project/scalaris/releases/download/v1.0.0/scalaris-1.0.0-win64-setup-unsigned.exe'
 exlink_linux_download: 'https://github.com/scalaris-project/scalaris/releases/download/v1.0.0/scalaris-1.0.0-x86_64-linux-gnu.tar.gz'
 exlink_all_downloads: 'https://github.com/scalaris-project/scalaris/releases'
 exlink_wallet_download: 'https://github.com/scalaris-project/scalaris/releases/latest'
+exlink_dx_mac_download: 'https://github.com/scalaris-project/scalaris-dx/releases/download/v1.0.0/SCALARIS-DX-1.0.0-mac.dmg'
+exlink_dx_win_download: 'https://github.com/scalaris-project/scalaris-dx/releases/download/v1.0.0/SCALARIS-DX-1.0.0-win.exe'
+exlink_dx_linux_download: 'https://github.com/scalaris-project/scalaris-dx/releases/download/v1.0.0/SCALARIS-DX-1.0.0-linux-x86_64.AppImage'
+exlink_dx_all_downloads: 'https://github.com/scalaris-project/scalaris-dx/releases/latest'
+exlink_electrum_mac_download: 'https://github.com/scalaris-project/electrum/releases/download/v4.0.0.0/electrum-v4.0.0.0.dmg'
+exlink_electrum_win_download: 'https://github.com/scalaris-project/electrum/releases/download/v4.0.0.0/electrum-v4.0.0.0-setup.exe'
+exlink_electrum_linux_download: 'https://github.com/scalaris-project/electrum/releases/download/v4.0.0.0/electrum-v4.0.0.0-x86_64.AppImage'
+exlink_electrum_all_downloads: 'https://github.com/scalaris-project/electrum/releases/latest'
 
 # !!!Announcement notices are not integrated yet!!!
 # Sticky announcement messages, expiration in epoch time (s)
@@ -59,7 +69,8 @@ exlink_docs_blockchain: 'https://docs.scalaris.info/blockchain/introduction'
 exlink_docs_exchanges: 'https://docs.scalaris.info/project/exchanges'
 exlink_docs_fees: 'https://docs.scalaris.info/scalarisdx/fees'
 exlink_docs_snodes: 'https://docs.scalaris.info/service-nodes/introduction'
-exlink_docs_setup: 'https://docs.scalaris.info/scalarisdx/setup/'
+exlink_docs_setup: 'https://docs.scalaris.info/wallet/setup/'
+exlink_docs_setup_dx: 'https://docs.scalaris.info/scalarisdx/setup/'
 exlink_docs_trading: 'https://docs.scalaris.info/scalarisdx/trading/'
 exlink_docs_listing: 'https://docs.scalaris.info/scalarisdx/listings/'
 exlink_dx_contributor: 'https://github.com/scalaris-project/scalaris-dx'
