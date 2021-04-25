@@ -32,13 +32,13 @@ languages: ["en"]
 # Example: 'Scalaris DX requires Blocknet wallet v{{ site.min_wallet_version }} or greater.'
 
 # Version Updates
-scalaris_version: '1.0.0'
+scalaris_version: '1.0.1'
 scalarisdx_version: '1.1.0'
 electrum_version: '4.0.0.0'
-min_wallet_version: '1.0.0'
-exlink_mac_download: 'https://github.com/scalaris-project/scalaris/releases/download/v1.0.0/scalaris-1.0.0-osx-unsigned.dmg'
-exlink_win_download: 'https://github.com/scalaris-project/scalaris/releases/download/v1.0.0/scalaris-1.0.0-win64-setup-unsigned.exe'
-exlink_linux_download: 'https://github.com/scalaris-project/scalaris/releases/download/v1.0.0/scalaris-1.0.0-x86_64-linux-gnu.tar.gz'
+min_wallet_version: '1.0.1'
+exlink_mac_download: 'https://github.com/scalaris-project/scalaris/releases/download/v1.0.1/scalaris-1.0.1-osx-unsigned.dmg'
+exlink_win_download: 'https://github.com/scalaris-project/scalaris/releases/download/v1.0.1/scalaris-1.0.1-win64-setup-unsigned.exe'
+exlink_linux_download: 'https://github.com/scalaris-project/scalaris/releases/download/v1.0.1/scalaris-1.0.1-x86_64-linux-gnu.tar.gz'
 exlink_all_downloads: 'https://github.com/scalaris-project/scalaris/releases'
 exlink_wallet_download: 'https://github.com/scalaris-project/scalaris/releases/latest'
 exlink_dx_mac_download: 'https://github.com/scalaris-project/scalaris-dx/releases/download/v1.1.0/SCALARIS-DX-1.1.0-mac.dmg'
