@@ -76,9 +76,13 @@ exlink_docs_listing: 'https://docs.scalaris.info/scalarisdx/listings/'
 exlink_dx_contributor: 'https://github.com/scalaris-project/scalaris-dx'
 exlink_makerbot: 'https://github.com/scalaris-project/dxmakerbot'
 exlink_manifest: 'https://raw.githubusercontent.com/blocknetdx/blockchain-configuration-files/master/manifest-latest.json'
+exlink_platform_monitor: 'https://scalaris.platformmonitor.net'
+exlink_exchangers: 'https://docs.scalaris.info/project/exchanges'
 
 # Social Links
 exlink_github: 'https://github.com/scalaris-project'
 exlink_discord: 'https://discord.gg/ZeUMV2kcaQ'
 exlink_twitter: 'https://twitter.com/scalarisproject'
 exlink_telegram: 'https://t.me/scalaris_project'
+exlink_reddit: 'https://www.reddit.com/r/Scalaris_Project'
+exlink_bitcointalk: 'https://bitcointalk.org/index.php?topic=5322570.msg56522285#msg56522285'

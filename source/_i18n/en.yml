@@ -23,6 +23,9 @@ nav:
   menu: Menu
   home: Home
   features: Features
+  documentation: Documentation
+  api_documentation: API Documentation
+  platform_monitor: Platform Monitor
   listings: Listings
   setup_menu: Setup
   macos: MacOS
@@ -58,6 +61,10 @@ footer:
   nodes: Exchange Nodes
   whitelabel: Whitelabel DEX
   contribute: Contribute
+  documentation: Documentation
+  api_documentation: API Documentation
+  platform_monitor: Platform Monitor
+  exchangers: Exchangers
 
 index:
   header: One Of The Most Secure & Decentralized Blockhain-Based Exchange

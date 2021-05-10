@@ -12,6 +12,25 @@
             <li class="dx-animate"><a href="{{ site.exlink_twitter }}"><i class="fab fa-twitter"></i></a></li>
             <li class="dx-animate"><a href="{{ site.exlink_telegram }}"><i class="fab fa-telegram"></i></a></li>
             <li class="dx-animate"><a href="{{ site.exlink_github }}"><i class="fab fa-github"></i></a></li>
+            <li class="dx-animate"><a href="{{ site.exlink_reddit }}"><i class="fab fa-reddit"></i></a></li>
+            <li class="dx-animate"><a href="{{ site.exlink_bitcointalk }}"><i class="fab fa-btc"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md">
+        <div class="mb-4 ml-md-5">
+          <h2>{{ lang.footer.learn_header | liquify }}</h2>
+          <ul class="list-unstyled">
+            <li><a href="{{ baseurl | append: '#features' }}" class="py-2 d-block">{{ lang.footer.features | liquify }}</a></li>
+            {%- comment -%}
+            <!-- <li><a href="{{ baseurl | append: lang.global.link_comparisons }}" class="py-2 d-block">{{ lang.footer.comparisons | liquify }}</a></li> -->
+            <!-- <li><a href="{{ baseurl | append: lang.global.link_how }}" class="py-2 d-block">{{ lang.footer.how | liquify }}</a></li> -->
+            {%- endcomment -%}
+            <li><a href="{{ baseurl | append: '#faq' }}" class="py-2 d-block">{{ lang.footer.faq | liquify }}</a></li>
+            <li><a href="{{ site.exlink_docs }}" class="py-2 d-block">{{ lang.footer.documentation | liquify }}</a></li>
+            <li><a href="{{ site.exlink_api }}" class="py-2 d-block">{{ lang.footer.api_documentation | liquify }}</a></li>
+            <li><a href="{{ site.exlink_platform_monitor }}" class="py-2 d-block">{{ lang.footer.platform_monitor | liquify }}</a></li>
+            <!-- <li><a href="{{ baseurl | append: '#blog' }}" class="py-2 d-block">{{ lang.footer.blog | liquify }}</a></li> -->
           </ul>
         </div>
       </div>
@@ -31,23 +50,10 @@
         </div>
       </div>
       <div class="col-md">
-        <div class="mb-4 ml-md-5">
-          <h2>{{ lang.footer.learn_header | liquify }}</h2>
-          <ul class="list-unstyled">
-            <li><a href="{{ baseurl | append: '#features' }}" class="py-2 d-block">{{ lang.footer.features | liquify }}</a></li>
-            {%- comment -%}
-            <!-- <li><a href="{{ baseurl | append: lang.global.link_comparisons }}" class="py-2 d-block">{{ lang.footer.comparisons | liquify }}</a></li> -->
-            <!-- <li><a href="{{ baseurl | append: lang.global.link_how }}" class="py-2 d-block">{{ lang.footer.how | liquify }}</a></li> -->
-            {%- endcomment -%}
-            <li><a href="{{ baseurl | append: '#faq' }}" class="py-2 d-block">{{ lang.footer.faq | liquify }}</a></li>
-            <!-- <li><a href="{{ baseurl | append: '#blog' }}" class="py-2 d-block">{{ lang.footer.blog | liquify }}</a></li> -->
-          </ul>
-        </div>
-      </div>
-      <div class="col-md">
         <div class="mb-4">
           <h2>{{ lang.footer.trading_header | liquify }}</h2>
           <ul class="list-unstyled">
+            <li><a href="{{ site.exlink_exchangers }}" class="py-2 d-block">{{ lang.footer.exchangers | liquify }}</a></li>
             <li><a href="{{ baseurl | append: lang.global.link_listings }}" class="py-2 d-block">{{ lang.footer.listings | liquify }}</a></li>
             <li><a href="{{ baseurl | append: lang.global.link_application }}" class="py-2 d-block">{{ lang.footer.application | liquify }}</a></li>
             <li><a href="{{ baseurl | append: lang.global.link_fees }}" class="py-2 d-block">{{ lang.footer.fees | liquify }}</a></li>
